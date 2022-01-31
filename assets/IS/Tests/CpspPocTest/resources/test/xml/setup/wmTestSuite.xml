@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webMethodsTestSuite description="" name="CpsppocTest">
+    <webMethodsTestCase description="Test case to get student" name="getStudent">
+        <service folder="cpsp.poc.add.service" name="getStudent">
+            <input>
+                <file filename="resources/test/xml/data/getStudentRequest.xml"/>
+            </input>
+            <expected>
+                <file filename="resources/test/xml/data/getStudentResponse.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+    <webMethodsTestCase name="getStudentInvalid">
+        <service folder="cpsp.poc.add.service" name="getStudent">
+            <input>
+                <file filename="resources/test/xml/data/getStudentInvalidRequest.xml"/>
+            </input>
+            <expected>
+                <file filename="resources/test/xml/data/getStudentResponse.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+</webMethodsTestSuite>

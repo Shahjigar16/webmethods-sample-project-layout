@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<IDataXMLCoder version="1.0">
+  <record javaclass="com.wm.util.Values">
+    <record name="student" javaclass="com.wm.data.ISMemDataImpl">
+      <value name="id">1</value>
+      <value name="name">Jigar</value>
+      <value name="email">jish@softwareag.com</value>
+    </record>
+  </record>
+</IDataXMLCoder>
