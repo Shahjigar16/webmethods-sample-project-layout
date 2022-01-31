@@ -16,7 +16,7 @@
                 <file filename="resources/test/xml/data/getStudentInvalidRequest.xml"/>
             </input>
             <expected>
-                <file filename="resources/test/xml/data/getStudentResponse.xml"/>
+                <file filename="resources/test/xml/data/getStudentInvalidResponse.xml"/>
             </expected>
         </service>
     </webMethodsTestCase>
